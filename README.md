@@ -8,3 +8,5 @@ clone the template and update the following;
 # 3. The Auth pagee - Login, register and password reset
 
 # 4. The duration of this task is 2 days
+
+# 5. Bosss, my NPM is working perfectly now

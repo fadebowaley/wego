@@ -17,9 +17,24 @@ router.get('/services', function(req, res, next) {
   res.render('services', { title: 'Express' });
 });
 
-/* GET home page. */
+/* GET contact page. */
 router.get('/contact', function(req, res, next) {
   res.render('contact', { title: 'Express' });
+});
+
+/* GET footer page. */
+router.get('/footer', function(req, res, next) {
+  res.render('footer', { title: 'Express' });
+});
+
+/* GET head page. */
+router.get('/head', function(req, res, next) {
+  res.render('head', { title: 'Express' });
+});
+
+/* GET header page. */
+router.get('/header', function(req, res, next) {
+  res.render('header', { title: 'Express' });
 });
 
 module.exports = router;
